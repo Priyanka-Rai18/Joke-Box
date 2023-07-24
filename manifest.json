@@ -1,0 +1,18 @@
+
+{
+    "manifest_version": 3,
+    "name": " Jokes Box",
+    "version": "1.0",
+    "description": "Get random jokes from the internet and send them to your friends.",
+    "background": {
+      "service_worker": "Script.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+        "128": "logo.png"
+    },
+    "permissions": [ "activeTab"]
+   
+  }
